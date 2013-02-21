@@ -7,13 +7,28 @@
 //
 
 #import "AppDelegate.h"
+#import "UIVViewDemoViewController.h"
+#import "UIHViewDemoViewController.h"
+#import "UIAViewDemoViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    UITabBarController* tabBarController = [[UITabBarController alloc] init];
+    NSMutableArray *topLevelControllers = [[NSMutableArray alloc] init];
+    [topLevelControllers addObject:[[UIHViewDemoViewController alloc] init]];
+    [topLevelControllers addObject:[[UIVViewDemoViewController alloc] init]];
+    [topLevelControllers addObject:[[UIAViewDemoViewController alloc] init]];
+    
+    [tabBarController setViewControllers:topLevelControllers animated:NO];
+    tabBarController.selectedIndex = 0;
+
+    
+    [self.window setRootViewController:tabBarController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

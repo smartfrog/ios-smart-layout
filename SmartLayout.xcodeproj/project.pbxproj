@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6487A1316D6977E00C25CEA /* AbsctractLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A0E16D6977E00C25CEA /* AbsctractLayoutView.m */; };
+		B6487A1416D6977E00C25CEA /* UIHView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1016D6977E00C25CEA /* UIHView.m */; };
+		B6487A1516D6977E00C25CEA /* UIVView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1216D6977E00C25CEA /* UIVView.m */; };
+		B6487A1816D69B4700C25CEA /* UIAView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1716D69B4600C25CEA /* UIAView.m */; };
+		B6487A1C16D6C5D000C25CEA /* UIHViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1B16D6C5D000C25CEA /* UIHViewDemoViewController.m */; };
+		B6487A1F16D6C61F00C25CEA /* UIHViewDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1E16D6C61F00C25CEA /* UIHViewDemoView.m */; };
+		B6487A2416D6CA2E00C25CEA /* UIVViewDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A2316D6CA2E00C25CEA /* UIVViewDemoView.m */; };
+		B6487A2716D6CA3E00C25CEA /* UIVViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A2616D6CA3E00C25CEA /* UIVViewDemoViewController.m */; };
 		B6CF12CE16D5656500E45B77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CF12CD16D5656500E45B77 /* UIKit.framework */; };
 		B6CF12D016D5656500E45B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CF12CF16D5656500E45B77 /* Foundation.framework */; };
 		B6CF12D216D5656500E45B77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CF12D116D5656500E45B77 /* CoreGraphics.framework */; };
@@ -16,9 +24,29 @@
 		B6CF12E016D5656500E45B77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF12DF16D5656500E45B77 /* Default.png */; };
 		B6CF12E216D5656500E45B77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF12E116D5656500E45B77 /* Default@2x.png */; };
 		B6CF12E416D5656500E45B77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CF12E316D5656500E45B77 /* Default-568h@2x.png */; };
+		B6F863E616D6D2AA008CEFEC /* UIAViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F863E516D6D2AA008CEFEC /* UIAViewDemoViewController.m */; };
+		B6F863E916D6D2CE008CEFEC /* UIAViewDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F863E816D6D2CE008CEFEC /* UIAViewDemoView.m */; };
+		B6F863EC16D6D746008CEFEC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F863EA16D6D746008CEFEC /* background.png */; };
+		B6F863ED16D6D746008CEFEC /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F863EB16D6D746008CEFEC /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6487A0D16D6977E00C25CEA /* AbsctractLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsctractLayoutView.h; sourceTree = "<group>"; };
+		B6487A0E16D6977E00C25CEA /* AbsctractLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsctractLayoutView.m; sourceTree = "<group>"; };
+		B6487A0F16D6977E00C25CEA /* UIHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHView.h; sourceTree = "<group>"; };
+		B6487A1016D6977E00C25CEA /* UIHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHView.m; sourceTree = "<group>"; };
+		B6487A1116D6977E00C25CEA /* UIVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVView.h; sourceTree = "<group>"; };
+		B6487A1216D6977E00C25CEA /* UIVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVView.m; sourceTree = "<group>"; };
+		B6487A1616D69B4600C25CEA /* UIAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAView.h; sourceTree = "<group>"; };
+		B6487A1716D69B4600C25CEA /* UIAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAView.m; sourceTree = "<group>"; };
+		B6487A1A16D6C5D000C25CEA /* UIHViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHViewDemoViewController.h; sourceTree = "<group>"; };
+		B6487A1B16D6C5D000C25CEA /* UIHViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHViewDemoViewController.m; sourceTree = "<group>"; };
+		B6487A1D16D6C61F00C25CEA /* UIHViewDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHViewDemoView.h; sourceTree = "<group>"; };
+		B6487A1E16D6C61F00C25CEA /* UIHViewDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHViewDemoView.m; sourceTree = "<group>"; };
+		B6487A2216D6CA2E00C25CEA /* UIVViewDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVViewDemoView.h; sourceTree = "<group>"; };
+		B6487A2316D6CA2E00C25CEA /* UIVViewDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVViewDemoView.m; sourceTree = "<group>"; };
+		B6487A2516D6CA3E00C25CEA /* UIVViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVViewDemoViewController.h; sourceTree = "<group>"; };
+		B6487A2616D6CA3E00C25CEA /* UIVViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVViewDemoViewController.m; sourceTree = "<group>"; };
 		B6CF12CA16D5656500E45B77 /* SmartLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF12CD16D5656500E45B77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6CF12CF16D5656500E45B77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +60,12 @@
 		B6CF12DF16D5656500E45B77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B6CF12E116D5656500E45B77 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B6CF12E316D5656500E45B77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6F863E416D6D2AA008CEFEC /* UIAViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAViewDemoViewController.h; sourceTree = "<group>"; };
+		B6F863E516D6D2AA008CEFEC /* UIAViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAViewDemoViewController.m; sourceTree = "<group>"; };
+		B6F863E716D6D2CE008CEFEC /* UIAViewDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAViewDemoView.h; sourceTree = "<group>"; };
+		B6F863E816D6D2CE008CEFEC /* UIAViewDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAViewDemoView.m; sourceTree = "<group>"; };
+		B6F863EA16D6D746008CEFEC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B6F863EB16D6D746008CEFEC /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +82,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6487A0C16D6975E00C25CEA /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6487A0D16D6977E00C25CEA /* AbsctractLayoutView.h */,
+				B6487A0E16D6977E00C25CEA /* AbsctractLayoutView.m */,
+				B6487A0F16D6977E00C25CEA /* UIHView.h */,
+				B6487A1016D6977E00C25CEA /* UIHView.m */,
+				B6487A1116D6977E00C25CEA /* UIVView.h */,
+				B6487A1216D6977E00C25CEA /* UIVView.m */,
+				B6487A1616D69B4600C25CEA /* UIAView.h */,
+				B6487A1716D69B4600C25CEA /* UIAView.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		B6487A1916D6C57100C25CEA /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				B6F863E316D6D28D008CEFEC /* UIAViewDemo */,
+				B6487A2116D6C89300C25CEA /* UIVViewDemo */,
+				B6487A2016D6C81F00C25CEA /* UIHViewDemo */,
+			);
+			name = demo;
+			sourceTree = "<group>";
+		};
+		B6487A2016D6C81F00C25CEA /* UIHViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6487A1A16D6C5D000C25CEA /* UIHViewDemoViewController.h */,
+				B6487A1B16D6C5D000C25CEA /* UIHViewDemoViewController.m */,
+				B6487A1D16D6C61F00C25CEA /* UIHViewDemoView.h */,
+				B6487A1E16D6C61F00C25CEA /* UIHViewDemoView.m */,
+			);
+			name = UIHViewDemo;
+			sourceTree = "<group>";
+		};
+		B6487A2116D6C89300C25CEA /* UIVViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6487A2516D6CA3E00C25CEA /* UIVViewDemoViewController.h */,
+				B6487A2616D6CA3E00C25CEA /* UIVViewDemoViewController.m */,
+				B6487A2216D6CA2E00C25CEA /* UIVViewDemoView.h */,
+				B6487A2316D6CA2E00C25CEA /* UIVViewDemoView.m */,
+			);
+			name = UIVViewDemo;
+			sourceTree = "<group>";
+		};
 		B6CF12C116D5656500E45B77 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +159,8 @@
 		B6CF12D316D5656500E45B77 /* SmartLayout */ = {
 			isa = PBXGroup;
 			children = (
+				B6487A1916D6C57100C25CEA /* demo */,
+				B6487A0C16D6975E00C25CEA /* classes */,
 				B6CF12DC16D5656500E45B77 /* AppDelegate.h */,
 				B6CF12DD16D5656500E45B77 /* AppDelegate.m */,
 				B6CF12D416D5656500E45B77 /* Supporting Files */,
@@ -92,11 +175,24 @@
 				B6CF12D616D5656500E45B77 /* InfoPlist.strings */,
 				B6CF12D916D5656500E45B77 /* main.m */,
 				B6CF12DB16D5656500E45B77 /* SmartLayout-Prefix.pch */,
+				B6F863EA16D6D746008CEFEC /* background.png */,
+				B6F863EB16D6D746008CEFEC /* background@2x.png */,
 				B6CF12DF16D5656500E45B77 /* Default.png */,
 				B6CF12E116D5656500E45B77 /* Default@2x.png */,
 				B6CF12E316D5656500E45B77 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6F863E316D6D28D008CEFEC /* UIAViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6F863E416D6D2AA008CEFEC /* UIAViewDemoViewController.h */,
+				B6F863E516D6D2AA008CEFEC /* UIAViewDemoViewController.m */,
+				B6F863E716D6D2CE008CEFEC /* UIAViewDemoView.h */,
+				B6F863E816D6D2CE008CEFEC /* UIAViewDemoView.m */,
+			);
+			name = UIAViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +250,8 @@
 				B6CF12E016D5656500E45B77 /* Default.png in Resources */,
 				B6CF12E216D5656500E45B77 /* Default@2x.png in Resources */,
 				B6CF12E416D5656500E45B77 /* Default-568h@2x.png in Resources */,
+				B6F863EC16D6D746008CEFEC /* background.png in Resources */,
+				B6F863ED16D6D746008CEFEC /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +264,16 @@
 			files = (
 				B6CF12DA16D5656500E45B77 /* main.m in Sources */,
 				B6CF12DE16D5656500E45B77 /* AppDelegate.m in Sources */,
+				B6487A1316D6977E00C25CEA /* AbsctractLayoutView.m in Sources */,
+				B6487A1416D6977E00C25CEA /* UIHView.m in Sources */,
+				B6487A1516D6977E00C25CEA /* UIVView.m in Sources */,
+				B6487A1816D69B4700C25CEA /* UIAView.m in Sources */,
+				B6487A1C16D6C5D000C25CEA /* UIHViewDemoViewController.m in Sources */,
+				B6487A1F16D6C61F00C25CEA /* UIHViewDemoView.m in Sources */,
+				B6487A2416D6CA2E00C25CEA /* UIVViewDemoView.m in Sources */,
+				B6487A2716D6CA3E00C25CEA /* UIVViewDemoViewController.m in Sources */,
+				B6F863E616D6D2AA008CEFEC /* UIAViewDemoViewController.m in Sources */,
+				B6F863E916D6D2CE008CEFEC /* UIAViewDemoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 				B6CF12E916D5656500E45B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
