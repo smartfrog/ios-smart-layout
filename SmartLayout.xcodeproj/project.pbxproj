@@ -105,7 +105,7 @@
 		B6487A1916D6C57100C25CEA /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				B6F863E316D6D28D008CEFEC /* UIAViewDemo */,
+				B6F863E316D6D28D008CEFEC /* UIAbsolutViewDemo */,
 				B6487A2116D6C89300C25CEA /* UIVViewDemo */,
 				B6487A2016D6C81F00C25CEA /* UIHViewDemo */,
 			);
@@ -189,7 +189,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B6F863E316D6D28D008CEFEC /* UIAViewDemo */ = {
+		B6F863E316D6D28D008CEFEC /* UIAbsolutViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				B6F863E416D6D2AA008CEFEC /* UIAViewDemoViewController.h */,
@@ -197,7 +197,7 @@
 				B6F863E716D6D2CE008CEFEC /* UIAViewDemoView.h */,
 				B6F863E816D6D2CE008CEFEC /* UIAViewDemoView.m */,
 			);
-			name = UIAViewDemo;
+			name = UIAbsolutViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
