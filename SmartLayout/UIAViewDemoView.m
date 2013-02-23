@@ -32,8 +32,6 @@
         [button3 setTitle:@"Button3" forState:UIControlStateNormal];
         button3.frame = CGRectMake(0, 0, 200, 200);
         [self addSubview:button3 toTop:nil right:@30 bottom:@30 left:nil];
-        
-        
     }
     return self;
 }

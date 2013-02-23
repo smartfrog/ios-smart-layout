@@ -10,9 +10,7 @@
 
 
 @implementation AbsctractLayoutView
-{
-    UIImageView *_backgroundImageView;
-}
+
 
 
 - (id) init
@@ -40,13 +38,11 @@
 
 -(id) initWithBackgroundImage:(NSString *) imageName
 {
-    self = [super init];
+    self = [super initWithBackgroundImage:imageName];
     
     if (self)
     {
         [self defaultInit];
-        [self setBackgroundImage:imageName];
-        self.frame = CGRectMake(0, 0, _backgroundImageView.frame.size.width, _backgroundImageView.frame.size.height);
     }
     
     return self;
@@ -57,7 +53,6 @@
 {
     self.gap = 10;
     self.padding = 10;
-    self.layout = absolut;
     self.hAlign = left;
     self.vAlign = top;
 }
@@ -65,11 +60,8 @@
 -(void) addSubview:(UIView *)view
 {
     [super addSubview:view];
-    
-    if (self.layout != absolut)
-    {
-        [self _updateSubViewsPosition];
-    }
+
+    [self _updateSubViewsPosition];
 }
 
 -(void) addSubview:(UIView *)view withSize:(CGSize )size
@@ -80,12 +72,6 @@
     [self addSubview:view];
 }
 
--(void) setBackgroundImage:(NSString *)imageName
-{
-    _backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imageName]];
-    [super insertSubview:_backgroundImageView atIndex:0];
-}
-
 -(void) _updateSubViewsPosition
 {
     CGSize totalSize = [self _totalSubViewsSize];
@@ -93,7 +79,7 @@
     
     for (UIView *view in self.subviews)
     {
-        if (view != _backgroundImageView)
+        if (view != self.backgroundImageView)
         {
             int x = 0;
             int y = 0;
@@ -178,7 +164,7 @@
     
     for (UIView *view in self.subviews)
     {
-        if (view != _backgroundImageView)
+        if (view != self.backgroundImageView)
         {
             if (width > 0)
                 width += self.gap;

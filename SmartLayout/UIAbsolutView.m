@@ -6,14 +6,9 @@
 //  Copyright (c) 2013 smartfrog. All rights reserved.
 //
 
-#import "UIAView.h"
+#import "UIAbsolutView.h"
 
-@implementation UIAView
-
-- (void) defaultInit
-{
-    self.layout = absolut;
-}
+@implementation UIAbsolutView
 
 -(void) addSubview:(UIView *) view toTop:(NSNumber *)top right:(NSNumber *)right bottom:(NSNumber *) bottom left:(NSNumber *) left
 {

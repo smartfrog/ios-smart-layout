@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIBackgroundImageView.h"
 
-@interface AbsctractLayoutView : UIView
+@interface AbsctractLayoutView : UIBackgroundImageView
 
-enum Layout {absolut, horizontal, vertical};
+enum Layout {horizontal, vertical};
 enum HorizontalAlign {left, right, center};
 enum VerticalAlign {top, bottom, middle};
 
@@ -21,10 +22,9 @@ enum VerticalAlign {top, bottom, middle};
 @property (nonatomic) int padding;
 
 -(void) defaultInit;
--(id) initWithBackgroundImage:(NSString *) imageName;
 
 -(void) addSubview:(UIView *)view withSize:(CGSize )size;
 
--(void) setBackgroundImage:(NSString *) imageName;
+
 
 @end

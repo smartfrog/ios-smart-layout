@@ -10,11 +10,12 @@
 		B6487A1316D6977E00C25CEA /* AbsctractLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A0E16D6977E00C25CEA /* AbsctractLayoutView.m */; };
 		B6487A1416D6977E00C25CEA /* UIHView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1016D6977E00C25CEA /* UIHView.m */; };
 		B6487A1516D6977E00C25CEA /* UIVView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1216D6977E00C25CEA /* UIVView.m */; };
-		B6487A1816D69B4700C25CEA /* UIAView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1716D69B4600C25CEA /* UIAView.m */; };
+		B6487A1816D69B4700C25CEA /* UIAbsolutView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1716D69B4600C25CEA /* UIAbsolutView.m */; };
 		B6487A1C16D6C5D000C25CEA /* UIHViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1B16D6C5D000C25CEA /* UIHViewDemoViewController.m */; };
 		B6487A1F16D6C61F00C25CEA /* UIHViewDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A1E16D6C61F00C25CEA /* UIHViewDemoView.m */; };
 		B6487A2416D6CA2E00C25CEA /* UIVViewDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A2316D6CA2E00C25CEA /* UIVViewDemoView.m */; };
 		B6487A2716D6CA3E00C25CEA /* UIVViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6487A2616D6CA3E00C25CEA /* UIVViewDemoViewController.m */; };
+		B6C6C99016D96E740035144F /* UIBackgroundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6C98F16D96E740035144F /* UIBackgroundImageView.m */; };
 		B6CF12CE16D5656500E45B77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CF12CD16D5656500E45B77 /* UIKit.framework */; };
 		B6CF12D016D5656500E45B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CF12CF16D5656500E45B77 /* Foundation.framework */; };
 		B6CF12D216D5656500E45B77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CF12D116D5656500E45B77 /* CoreGraphics.framework */; };
@@ -37,8 +38,8 @@
 		B6487A1016D6977E00C25CEA /* UIHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHView.m; sourceTree = "<group>"; };
 		B6487A1116D6977E00C25CEA /* UIVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVView.h; sourceTree = "<group>"; };
 		B6487A1216D6977E00C25CEA /* UIVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVView.m; sourceTree = "<group>"; };
-		B6487A1616D69B4600C25CEA /* UIAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAView.h; sourceTree = "<group>"; };
-		B6487A1716D69B4600C25CEA /* UIAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAView.m; sourceTree = "<group>"; };
+		B6487A1616D69B4600C25CEA /* UIAbsolutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAbsolutView.h; sourceTree = "<group>"; };
+		B6487A1716D69B4600C25CEA /* UIAbsolutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAbsolutView.m; sourceTree = "<group>"; };
 		B6487A1A16D6C5D000C25CEA /* UIHViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHViewDemoViewController.h; sourceTree = "<group>"; };
 		B6487A1B16D6C5D000C25CEA /* UIHViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHViewDemoViewController.m; sourceTree = "<group>"; };
 		B6487A1D16D6C61F00C25CEA /* UIHViewDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHViewDemoView.h; sourceTree = "<group>"; };
@@ -47,6 +48,8 @@
 		B6487A2316D6CA2E00C25CEA /* UIVViewDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVViewDemoView.m; sourceTree = "<group>"; };
 		B6487A2516D6CA3E00C25CEA /* UIVViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVViewDemoViewController.h; sourceTree = "<group>"; };
 		B6487A2616D6CA3E00C25CEA /* UIVViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVViewDemoViewController.m; sourceTree = "<group>"; };
+		B6C6C98E16D96E740035144F /* UIBackgroundImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBackgroundImageView.h; sourceTree = "<group>"; };
+		B6C6C98F16D96E740035144F /* UIBackgroundImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBackgroundImageView.m; sourceTree = "<group>"; };
 		B6CF12CA16D5656500E45B77 /* SmartLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF12CD16D5656500E45B77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6CF12CF16D5656500E45B77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,12 +90,14 @@
 			children = (
 				B6487A0D16D6977E00C25CEA /* AbsctractLayoutView.h */,
 				B6487A0E16D6977E00C25CEA /* AbsctractLayoutView.m */,
+				B6C6C98E16D96E740035144F /* UIBackgroundImageView.h */,
+				B6C6C98F16D96E740035144F /* UIBackgroundImageView.m */,
+				B6487A1616D69B4600C25CEA /* UIAbsolutView.h */,
+				B6487A1716D69B4600C25CEA /* UIAbsolutView.m */,
 				B6487A0F16D6977E00C25CEA /* UIHView.h */,
 				B6487A1016D6977E00C25CEA /* UIHView.m */,
 				B6487A1116D6977E00C25CEA /* UIVView.h */,
 				B6487A1216D6977E00C25CEA /* UIVView.m */,
-				B6487A1616D69B4600C25CEA /* UIAView.h */,
-				B6487A1716D69B4600C25CEA /* UIAView.m */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -267,13 +272,14 @@
 				B6487A1316D6977E00C25CEA /* AbsctractLayoutView.m in Sources */,
 				B6487A1416D6977E00C25CEA /* UIHView.m in Sources */,
 				B6487A1516D6977E00C25CEA /* UIVView.m in Sources */,
-				B6487A1816D69B4700C25CEA /* UIAView.m in Sources */,
+				B6487A1816D69B4700C25CEA /* UIAbsolutView.m in Sources */,
 				B6487A1C16D6C5D000C25CEA /* UIHViewDemoViewController.m in Sources */,
 				B6487A1F16D6C61F00C25CEA /* UIHViewDemoView.m in Sources */,
 				B6487A2416D6CA2E00C25CEA /* UIVViewDemoView.m in Sources */,
 				B6487A2716D6CA3E00C25CEA /* UIVViewDemoViewController.m in Sources */,
 				B6F863E616D6D2AA008CEFEC /* UIAViewDemoViewController.m in Sources */,
 				B6F863E916D6D2CE008CEFEC /* UIAViewDemoView.m in Sources */,
+				B6C6C99016D96E740035144F /* UIBackgroundImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

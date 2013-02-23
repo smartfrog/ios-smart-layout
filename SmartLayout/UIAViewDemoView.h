@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 smartfrog. All rights reserved.
 //
 
-#import "UIAView.h"
+#import "UIAbsolutView.h"
 
-@interface UIAViewDemoView : UIAView
+@interface UIAViewDemoView : UIAbsolutView
 
 @end
