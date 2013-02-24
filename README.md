@@ -10,9 +10,15 @@ It provides you three types of UIView that you can use to arrange easily element
   
   * UIAbsolutView: Arranges the sub views independently of each-other. You add the subview with the following constraints : left, right, top, bottom. That constraint represent the space between the sub view you are adding and the border of it parent view. 
 
+Installation
+------------
+
+Just copy files present in the "classes" group of the sample project into your own project.
+
 
 How to use it ?
 ---------------
+
 
 ### UIHView and UIVView
 
