@@ -14,7 +14,7 @@ It provide you three types of UIView that you can use to positionate easily elem
 How to use it ?
 ---------------
 
-## UIHView and UIVView
+### UIHView and UIVView
 
     [self setBackgroundImage:@"background"];
         
@@ -36,7 +36,7 @@ How to use it ?
     [button3 setTitle:@"Button3" forState:UIControlStateNormal];
     [self addSubview:button3 withSize:CGSizeMake(200, 200)];
 
-## UIAbsolutView
+### UIAbsolutView
 
     [self setBackgroundImage:@"background"]; 
         
