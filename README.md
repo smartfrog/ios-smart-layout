@@ -1,7 +1,7 @@
 IOS SMART LAYOUT
 ================
 
-Smart Layout help you to create your IOS screen programmatically.
+Smart Layout help you to create your IOS screens programmatically. If you found IOS AutoLayout to complex or if you target IOS 5, Smart Layout is made for you.
 
 It provide you three types of UIView that you can use to positionate easily elements of your screen. Each view from smart layout contains an backgroundImage that allow you to put an image in the background of your caintainer.
 
