@@ -1,4 +1,4 @@
-ios-smart-layout
+IOS SMART LAYOUT
 ================
 
 Smart Layout help you to create your IOS screen programmatically.
@@ -55,3 +55,17 @@ How to use it ?
     [button3 setTitle:@"Button3" forState:UIControlStateNormal];
     button3.frame = CGRectMake(0, 0, 200, 200);
     [self addSubview:button3 toTop:nil right:@30 bottom:@30 left:nil];
+
+
+Reporting issues or requests for improvement
+--------------------------------------------
+
+Please report problems on the [GitHub repository](https://github.com/smartfrog/ios-smart-layout/issues).
+
+License
+-------
+Smart Layout is licensed under the terms of the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+
+Credits
+-------
+Smart Layout is brought to you by the [SMARTFROG](http://smartfrog.fr) Team.
