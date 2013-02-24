@@ -1,14 +1,14 @@
 IOS SMART LAYOUT
 ================
 
-Smart Layout help you to create your IOS screens programmatically. If you found IOS AutoLayout to complex or if you target IOS 5, Smart Layout is made for you.
+Smart Layout helps you to create your IOS screens programmatically. If you found IOS AutoLayout to complex or if you target IOS 5, Smart Layout is made for you.
 
 It provides you three types of UIView that you can use to arrange easily elements of your screen. Each view from smart layout contains an backgroundImage that allows you to put an image in the background of your container.
 
 
-  * UIHView / UIVView: Positionate sub views horizontaly / vertically. You can specify vertical align, horizontal align, gap between elements, padding.
+  * UIHView / UIVView: Arranges the sub views horizontaly / vertically. You can specify vertical align, horizontal align, gap between elements, padding.
   
-  * UIAbsolutView: It arranges the sub views independently of each-other. You add the subview with the following constraints : left, right, top, bottom. That constraint represent the space between the sub view you are adding and the border of it parent view. 
+  * UIAbsolutView: Arranges the sub views independently of each-other. You add the subview with the following constraints : left, right, top, bottom. That constraint represent the space between the sub view you are adding and the border of it parent view. 
 
 
 How to use it ?
