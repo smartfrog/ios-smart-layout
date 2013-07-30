@@ -25,6 +25,12 @@ enum VerticalAlign {top, bottom, middle};
 
 -(void) addSubview:(UIView *)view withSize:(CGSize )size;
 
+-(NSInteger) freeWidth;
+-(NSInteger) freeHeight;
+-(CGSize) usableSize;
+
+-(void) addSubview:(UIView *)view withPercentWidth:(NSNumber *)percentWidth andPercentHeight:(NSNumber *) percentHeight;
+
 
 
 @end

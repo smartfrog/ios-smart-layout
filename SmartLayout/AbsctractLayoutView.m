@@ -7,6 +7,7 @@
 //
 
 #import "AbsctractLayoutView.h"
+#import "SmartSize.h"
 
 
 @implementation AbsctractLayoutView
@@ -57,12 +58,7 @@
     self.vAlign = top;
 }
 
--(void) addSubview:(UIView *)view
-{
-    [super addSubview:view];
 
-    [self _updateSubViewsPosition];
-}
 
 -(void) addSubview:(UIView *)view withSize:(CGSize )size
 {
@@ -72,14 +68,38 @@
     [self addSubview:view];
 }
 
--(void) _updateSubViewsPosition
+-(void) addSubview:(UIView *)view withPercentWidth:(NSNumber *)percentWidth andPercentHeight:(NSNumber *) percentHeight
+{
+    
+    int width = view.frame.size.width;
+    int height = view.frame.size.height;
+    
+    if (percentWidth)
+    {
+        width = [SmartSize percentWidth:[percentWidth integerValue] ForView:self];
+    }
+    
+    if (percentHeight)
+    {
+        height = [SmartSize percentHeight:[percentHeight integerValue] ForView:self];
+    }
+    
+    CGRect frame = view.frame;
+    view.frame = CGRectMake(frame.origin.x, frame.origin.y, width, height);
+    
+    [self addSubview:view];
+}
+
+-(void) layoutSubviews
 {
     CGSize totalSize = [self _totalSubViewsSize];
     UIView *previousView = nil;
     
+    CGSize currentViewSize = self.frame.size;
+    
     for (UIView *view in self.subviews)
     {
-        if (view != self.backgroundImageView)
+        if (view != self.backgroundImageView && ![[view class].description isEqual:@"MBProgressHUD"])
         {
             int x = 0;
             int y = 0;
@@ -91,7 +111,7 @@
                     break;
                     
                 case bottom:
-                    y = self.frame.size.height - self.padding;
+                    y = currentViewSize.height - self.padding;
                     
                     if (self.layout == vertical)
                         y -= totalSize.height;
@@ -101,7 +121,7 @@
                     break;
                     
                 case middle:
-                    y = self.frame.size.height / 2;
+                    y = currentViewSize.height / 2;
                     
                     if (self.layout == vertical)
                         y -= totalSize.height / 2;
@@ -118,7 +138,7 @@
                     break;
                     
                 case right:
-                    x = self.frame.size.width - self.padding;
+                    x = currentViewSize.width - self.padding;
                     
                     if (self.layout == vertical)
                         x -= view.frame.size.width ;
@@ -129,7 +149,7 @@
                     break;
                     
                 case center:
-                    x = self.frame.size.width / 2;
+                    x = currentViewSize.width / 2;
                     
                     if (self.layout == vertical)
                         x -= view.frame.size.width / 2;
@@ -151,6 +171,7 @@
             }
             
             view.frame = CGRectMake(x, y, view.frame.size.width, view.frame.size.height);
+          
             previousView = view;
         }
     }
@@ -172,12 +193,32 @@
             if (height > 0)
                 height += self.gap;
             
-            width += view.bounds.size.width;
-            height += view.bounds.size.height;
+            width += view.frame.size.width;
+            height += view.frame.size.height;
         }
     }
     
     return CGSizeMake(width, height);
+}
+
+-(CGSize) usableSize
+{
+    return CGSizeMake(self.frame.size.width - 2 * self.padding, self.frame.size.height - 2 * self.padding);
+}
+
+-(NSInteger) getFreeHeight
+{
+    CGSize subViewsSize = [self _totalSubViewsSize];
+
+    int height = self.bounds.size.height - subViewsSize.height - self.padding * 2 - self.gap;
+    return height;
+}
+
+-(NSInteger) getFreeWidth
+{
+    CGSize subViewsSize = [self _totalSubViewsSize];
+    
+    return self.bounds.size.width - subViewsSize.width - self.padding * 2 - self.gap;
 }
 
 @end

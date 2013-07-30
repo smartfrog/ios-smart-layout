@@ -31,4 +31,19 @@
     [super insertSubview:_backgroundImageView atIndex:0];
 }
 
+-(void) setBackgroundImage:(NSString *)imageName withScale:(BOOL ) scale
+{
+    if (scale)
+    {
+        _backgroundImageView = [[UIImageView alloc] initWithFrame:self.frame];
+        [_backgroundImageView setImage:[UIImage imageNamed:imageName]];
+        [super insertSubview:_backgroundImageView atIndex:0];
+    }
+    else
+    {
+        [self setBackgroundImage:imageName];
+    }
+    
+}
+
 @end

@@ -15,5 +15,6 @@
 -(id) initWithBackgroundImage:(NSString *) imageName;
 
 -(void) setBackgroundImage:(NSString *)imageName;
+-(void) setBackgroundImage:(NSString *)imageName withScale:(BOOL) scale;
 
 @end
