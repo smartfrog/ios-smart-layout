@@ -1,6 +1,8 @@
 IOS SMART LAYOUT
 ================
 
+(SWIFT Version available here : [SMART LAYOUT SWIFT](https://github.com/smartfrog/smart-layout-swift)
+
 Smart Layout helps you to create your IOS screens programmatically. If you found IOS AutoLayout too complex or if you target IOS 5, Smart Layout is made for you.
 
 It provides you three types of UIView that you can use to arrange easily elements of your screen. Each view from smart layout contains an backgroundImage that allows you to put an image in the background of your container.
